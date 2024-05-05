@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: myacrrepo332
-        image: myacrrepo332.azurecr.io/snitmycloud/kubernites-ACR
+        image: myacrrepo332.azurecr.io/snitmycloud/kubernites-acr
 
         ports:
         - containerPort: 5000
