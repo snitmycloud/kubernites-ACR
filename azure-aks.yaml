@@ -13,8 +13,9 @@ spec:
         app: my-python-app
     spec:
       containers:
-      - name: kubernites-ACR
-        image: myacrrepo421.azurecr.io/snitmycloud/kubernites-ACR:#{Build.BuildId}#
+      - name: myacrrepo332
+        image: myacrrepo332.azurecr.io/snitmycloud/kubernites-ACR
+
         ports:
         - containerPort: 5000
 # service type loadbalancer       
